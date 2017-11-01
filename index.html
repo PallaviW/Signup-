@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<img src="https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.6.2_challenge_signup_form/logo.png" class="logo-link">
+
+<form class="signup-form" action="post" method="/signup/">
+	
+<fieldset name="signup-info">
+
+	<header>Sign up</header>
+	<label for="email-for">Email</label>
+	<input type="Email" name="email" placeholder="foo@bar.com" required>
+
+	<label for="password-for">Password</label>
+	<input type="password" name="password" placeholder="1234passw0rd" required>
+
+	<button type="submit" class="submit-button">Sign up</button>
+	<a href="/forgot-password/new" 
+	class="forget-link">Forgot password?</a>
+	
+</fieldset>
+<footer class="login-link">
+	Already have an account? <a href="/login">Log in</a>
+</footer> 
+</form>
+</body>
+</html>
